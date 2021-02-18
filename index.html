@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/script.js"></script>
+</head>
+<body>
+    <div class="container">
+    <div class="reel a"> 🍇 🍈  🍉🍊 🍋  🍌  🍍  🥭 🍎 🍏  🍐   🍑   🍒   🍓</div>
+    <div class="reel b"> 🍇 🍈  🍉🍊 🍋  🍌  🍍  🥭 🍎 🍏  🍐   🍑   🍒   🍓</div>
+    <div class="reel c"> 🍇 🍈  🍉🍊 🍋  🍌  🍍  🥭 🍎 🍏  🍐   🍑   🍒   🍓</div>
+    <div class="nudge d"><button>Hold</button></div>
+    <div class="nudge e"><button>Hold</button></div>
+    <div class="nudge f"><button>Hold</button></div>
+    <div class="money g">100💰</div>       
+    <div class="play h"><button onclick='spinReels()'>Play</button></div>    
+    </div>
+
+
+    <p id="screen"></p>
+
+    <script>
+    (function() {
+        window.onresize = displayWindowSize;
+        window.onload = displayWindowSize;
+      
+        function displayWindowSize() {
+          let myWidth = window.innerWidth;
+          let myHeight = window.innerHeight;
+          // your size calculation code here
+          document.getElementById("screen").innerHTML = myWidth + "x" + myHeight;
+        };
+    })();
+    </script>
+</body>
+</html>
+

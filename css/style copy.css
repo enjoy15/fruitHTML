@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color:blue;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 10% auto 10% 10% 10% 10%; 
+    grid-gap: 20px 10px;
+
+  }
+
+
+
+.reel{
+    overflow-y: scroll;
+    display:inline-block;
+    height: 4em;
+    width: 2em;
+    font-size: 3em;
+    background-color: white;
+}
+
+.a {
+    grid-area: 2 / 2 / span 1 / span 1;   
+}
+
+.b {
+    grid-area: 2 / 4 / span 1 / span 1;   
+}
+
+.c {
+    grid-area: 2 / 6 / span 1 / span 1;   
+}
+
+.d {
+    grid-area: 3 / 2 / span 1 / span 1;   
+}
+
+.e {
+    grid-area: 3 / 4 / span 1 / span 1;   
+}
+
+.f {
+    grid-area: 3 / 6 / span 1 / span 1;   
+}
+
+.g {
+    grid-area: 4 / 2 / span 1 / span 1;   
+}
+
+.h {
+    grid-area: 4 / 4 / span 1 / span 1;   
+}
+
+.i {
+    grid-area: 4 / 6 / span 1 / span 1;   
+}
+
+.j {
+    grid-area: 5 / 2 / span 1 / span 1;   
+}
+
+.k {
+    grid-area: 5 / 4 / span 1 / span 1;   
+}
+
+.l {
+    grid-area: 5 / 6 / span 1 / span 1;   
+}
+
+.m {
+    grid-area: 6 / 2 / span 1 / span 1;   
+}
+.m {
+    grid-area: 6 / 2 / span 1 / span 1;   
+}
+.n {
+    grid-area: 6 / 4 / span 1 / span 1;   
+}
+
+.nudge,
+.hold,
+.money,
+.play {
+    border: 3px solid blue
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    box-shadow: 10px 10px 5px #AAAAAA;  /* create a 'drop shadow' for a 3d/floating look*/
+}
+
+#screen {
+    font-size: 20px;
+}
