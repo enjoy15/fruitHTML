@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color:blue;
+    background-color:blueviolet;
     color: white;
 }
 
@@ -13,15 +13,13 @@
 
   }
 
-
-
 .reel{
     overflow-y: scroll;
     display:inline-block;
     height: 4em;
     width: 1.5em;
     font-size: 3em;
-    background-color: white;
+    background-color: green;
     overflow: hidden;
 }
 
@@ -38,7 +36,7 @@
 }
 
 .d {
-    grid-area: 3 / 2 / span 1 / span 1;   
+    grid-area: 3 / 3 / span 1 / span 1;   
 }
 
 .e {
@@ -46,7 +44,7 @@
 }
 
 .f {
-    grid-area: 3 / 6 / span 1 / span 1;   
+    grid-area: 4 / 1 / span 1 / span 1;   
 }
 
 .g {
@@ -86,21 +84,22 @@
 .nudge,
 .hold,
 .play {
-    border: 1px solid blue;
+    border: 0px solid blue;
     outline: none; /* Remove outline */
-    background-color: red; /* Set a background color */
+    background-color: red; Set a background color
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 0px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-    box-shadow: 2px 2px 2px #AAAAAA;  /* create a 'drop shadow' for a 3d/floating look*/
+    font-size: 40px; /* Increase font size */
+    box-shadow: 2px 2px 2px #AAAAAA;  /* create a 'drop shadow' for a 3d/floating look */
     text-align: center;
 }
 
 .money{
     font-size: 30px;
 }
+
 #screen {
     font-size: 20px;
 }
