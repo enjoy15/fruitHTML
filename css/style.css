@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    background-color:blueviolet;
+    background-color:white;
     color: white;
 }
 
@@ -86,18 +86,19 @@
 .play {
     border: 0px solid blue;
     outline: none; /* Remove outline */
-    background-color: red; Set a background color
+    background-color: green; /* Set a background color */
     color: white; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 0px; /* Some padding */
+    padding: 10px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
-    font-size: 40px; /* Increase font size */
+    font-size: 30px; /* Increase font size */
     box-shadow: 2px 2px 2px #AAAAAA;  /* create a 'drop shadow' for a 3d/floating look */
     text-align: center;
 }
 
 .money{
-    font-size: 30px;
+    font-size: 40px;
+    color: black;
 }
 
 #screen {
